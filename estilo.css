@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap');
 
-body{
-   
+body {
+
     background-image: url('img/color-space-invaders-handheld-video-game-list-of-space-invaders-video-games-pac-man-invader-space-invaders-atari-arcade-cabinet-retrogaming-p.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
 
-.textointeiro{
+.textointeiro {
     color: black;
     padding: 8px;
     border-radius: 5px;
@@ -22,7 +23,7 @@ body{
 
 }
 
-.todoconteudo{
+.todoconteudo {
     color: black;
     padding: 8px;
     border-radius: 5px;
@@ -32,16 +33,19 @@ body{
     max-width: 1000px;
     margin: auto;
 }
-.avatar{
+
+.avatar {
     width: 280px;
     border: 8px solid white;
     border-radius: 200px;
 }
 
-ul{
-    list-style: none; /* remove os números */
+ul {
+    list-style: none;
+    /* remove os números */
     padding: 0;
     margin: 0 auto;
     text-align: center;
 }
+
 
