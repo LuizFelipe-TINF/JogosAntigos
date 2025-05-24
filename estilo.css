@@ -8,23 +8,8 @@ body{
     background-size: cover;
     background-attachment: fixed;
     
-    
 }
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('img/color-space-invaders-handheld-video-game-list-of-space-invaders-video-games-pac-man-invader-space-invaders-atari-arcade-cabinet-retrogaming-p.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 0.15; /* Ajuste como preferir */
-    z-index: -1;
-}
+
 .textointeiro{
     color: black;
     padding: 8px;
@@ -44,7 +29,7 @@ body::before {
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
     text-align: center;
-    max-width: 1300px;
+    max-width: 1000px;
     margin: auto;
 }
 .avatar{
