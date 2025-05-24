@@ -39,8 +39,9 @@ body{
 }
 
 ul{
-    list-style-type: none;
-}
-.lista{
+    list-style: none; /* remove os números */
+    padding: 0;
+    margin: 0 auto;
     text-align: center;
 }
+
