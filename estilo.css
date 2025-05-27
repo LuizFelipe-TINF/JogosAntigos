@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap');
 
 body {
 
-    background-image: url('img/color-space-invaders-handheld-video-game-list-of-space-invaders-video-games-pac-man-invader-space-invaders-atari-arcade-cabinet-retrogaming-p.png');
+    background-image: url('img/camiseta-game-space-invaders-P-vermelho-C.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -12,7 +11,7 @@ body {
 }
 
 .textointeiro {
-    color: black;
+    color: white;
     padding: 8px;
     border-radius: 5px;
     font-weight: bold;
@@ -20,11 +19,12 @@ body {
     text-align: center;
     max-width: 1300px;
     margin: auto;
+    
 
 }
 
 .todoconteudo {
-    color: black;
+    color: white;
     padding: 8px;
     border-radius: 5px;
     font-weight: bold;
@@ -45,6 +45,59 @@ ul {
     padding: 0;
     margin: 0 auto;
     text-align: center;
+    
+}
+#color{
+    color: white;
+    text-decoration: none;
+}
+.tituloimagem {
+    text-align: center;
+    margin-top: 20px;
 }
 
+.tituloimagem img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+}
 
+.principal{
+    text-align: center;
+    margin-top: 20px;
+}
+.principal img {
+    max-width: 100%;
+    height: auto;
+    width: 1500px;
+}
+.pacman {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pacman img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+}
+.dk {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dk img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+}
+.mario {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mario img {
+    max-width: 100%;
+    height: auto;
+    width: 700px;
+}
