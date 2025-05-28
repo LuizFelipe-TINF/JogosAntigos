@@ -11,7 +11,7 @@ body {
 }
 
 .textointeiro {
-    color: white;
+    color: #e0e0e0;
     padding: 8px;
     border-radius: 5px;
     font-weight: bold;
@@ -19,19 +19,23 @@ body {
     text-align: center;
     max-width: 1300px;
     margin: auto;
+    background-color: rgba(8, 8, 8, 0.6);
+    line-height: 1.6;
+    
     
 
 }
 
 .todoconteudo {
     color: white;
-    padding: 8px;
-    border-radius: 5px;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: center;
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
-    text-align: center;
-    max-width: 1000px;
-    margin: auto;
+    
 }
 
 .avatar {
@@ -48,7 +52,7 @@ ul {
     
 }
 #color{
-    color: white;
+    color: yellow;
     text-decoration: none;
 }
 .tituloimagem {
@@ -69,7 +73,7 @@ ul {
 .principal img {
     max-width: 100%;
     height: auto;
-    width: 1500px;
+    width: 900px;
 }
 .pacman {
     text-align: center;
@@ -101,3 +105,32 @@ ul {
     height: auto;
     width: 700px;
 }
+.nome {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nome img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.conteudo-padrao {
+ 
+  border-radius: 12px;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 900px;
+  text-align: left;
+}
+.conteudo-padrao img {
+  
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+
